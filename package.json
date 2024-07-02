@@ -1,7 +1,7 @@
 {
 	"name": "blue-comments",
 	"author": "aendra",
-	"version": "1.0.0-alpha3",
+	"version": "1.0.0-alpha4",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run package",
