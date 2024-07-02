@@ -1,7 +1,7 @@
 {
 	"name": "blue-comments",
 	"author": "aendra",
-	"version": "1.0.0-alpha2",
+	"version": "1.0.0-alpha3",
 	"scripts": {
 		"dev": "vite dev",
 		"build": "vite build && npm run package",
@@ -18,7 +18,7 @@
 		".": {
 			"types": "./dist/index.d.ts",
 			"svelte": "./dist/index.js",
-			"default": "./blue-comments.js"
+			"default": "./dist/blue-comments.js"
 		}
 	},
 	"files": [
