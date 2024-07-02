@@ -4,7 +4,6 @@
 	import { BskyAgent } from '@atproto/api';
 	import { AppBskyFeedDefs } from '@atproto/api';
 	import Reply from './reply.svelte';
-	import '../app.css';
 	export let uri: string | null = null;
 
 	const agent = new BskyAgent({ service: 'https://public.api.bsky.app' });
@@ -32,6 +31,10 @@
 
 <style>
 	.text-center {
-		margin: 0 auto;
+		text-align: center;
+	}
+	.text-xl {
+		font-size: 1.25rem;
+		line-height: 1.75rem;
 	}
 </style>

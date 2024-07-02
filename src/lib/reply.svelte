@@ -18,3 +18,7 @@
 		</div>
 	</div>
 {/if}
+
+<style>
+	@import '../app.css';
+</style>
