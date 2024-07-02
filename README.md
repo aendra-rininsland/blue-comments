@@ -16,4 +16,6 @@ To use —
 
 ```
 <blue-comments uri="at://did:plc:.../app.bsky.feed.post/...">
+    <h3>You can replace the default comments header section by specifying children</h3>
+</blue-comments>
 ```
