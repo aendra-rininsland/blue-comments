@@ -4,6 +4,7 @@
 	import { BskyAgent } from '@atproto/api';
 	import { AppBskyFeedDefs } from '@atproto/api';
 	import Reply from './reply.svelte';
+	import '../app.css';
 	export let uri: string | null = null;
 
 	const agent = new BskyAgent({ service: 'https://public.api.bsky.app' });
