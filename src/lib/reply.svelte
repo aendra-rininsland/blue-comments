@@ -4,7 +4,7 @@
 
 {#if reply?.author}
 	<div class="grid p-6 place-items-center">
-		<div class="w-full max-w-md">
+		<div class="w-full">
 			<div class="flex flex-row items-center">
 				<img src={reply.author.avatar} alt={reply.author.handle} class="h-12 w-12 rounded-full" />
 				<div class="ml-4">
