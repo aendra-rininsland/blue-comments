@@ -21,7 +21,9 @@
 			<slot><h3 class="text-xl">Comments</h3></slot>
 			{#if response.data.thread.replies}
 				{#each response.data.thread.replies as reply}
-					<Reply reply={reply.post} />
+					{#if AppBskyFeedDefs.isThreadViewPost(reply)}
+						<Reply reply={reply.post} />
+					{/if}
 				{/each}
 			{:else}<p class="text-center">No comments yet</p>
 			{/if}
