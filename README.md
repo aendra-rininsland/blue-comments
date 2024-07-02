@@ -19,6 +19,10 @@ document.body.appendChild(el);
 If using Ghost, in the post editing sidebar, use the "code injection" option to add the above
 to your footer.
 
+## Slightly-more-involved usage
+
+This is better if you're wanting to use this on multiple pages.
+
 #### In your `<head>` section:
 
 ```
